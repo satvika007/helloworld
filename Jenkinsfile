@@ -4,7 +4,7 @@ pipeline {
     
     stage('hello') {
       steps {
-        bat 'python hello.py'
+        bat 'git clone https://github.com/satvika007/helloworld.git'
       }
     }
   }
